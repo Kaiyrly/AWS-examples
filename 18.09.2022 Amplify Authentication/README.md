@@ -1,16 +1,31 @@
-# login
+# Authentication
 
-A new Flutter project.
+Todo app implemented using basic flutter features and uses AWS Amplify datastore to save the todolist in database, and sync data between database and local machine.
 
-## Getting Started
+This app is implemented using basic flutter features and uses AWS Amplify authentication to sign up and sign in the user
 
-This project is a starting point for a Flutter application.
+## References
 
-A few resources to get you started if this is your first Flutter project:
+* This example uses the same example code provided on this website, https://docs.amplify.aws/lib/auth/signin/q/platform/flutter/#register-a-user
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features used in the example
+
+### Sign up the user
+
+To sign up the user , we pass the user data to Amplify.Auth.signUpUser()
+
+### Confirm the user
+
+To confirm the user’s email , we pass the confirmation code to Amplify.Auth.confirmUser()
+
+### Sign in
+
+To sign in, we pass login information to Amplify.Auth.signInUser
+
+
+##Complatibility test
+
+| Android Emulator | ios Emulator| macOs (12.5.1)| Chrome |
+|:--------------|:--------------:|:--------------:|:--------------:|
+|O|?|x|O|
