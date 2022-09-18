@@ -6,7 +6,6 @@ Todo app implemented using basic flutter features and uses AWS Amplify datastore
 
 * This example uses the same example code provided on this website, https://docs.amplify.aws/start/getting-started/add-api/q/integration/flutter/
 
-* For more information on InheritedWidget, visit Flutter's website, https://docs.amplify.aws/lib/datastore/getting-started/q/platform/flutter/
 
 
 ## Features used in the example
